@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B221F3429BD239900B7F51C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD818B229BD04AE0033C205 /* Preview Assets.xcassets */; };
 		1BD818AC29BD04AB0033C205 /* alamofireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818AB29BD04AB0033C205 /* alamofireApp.swift */; };
 		1BD818AE29BD04AB0033C205 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818AD29BD04AB0033C205 /* ContentView.swift */; };
 		1BD818B029BD04AE0033C205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD818AF29BD04AE0033C205 /* Assets.xcassets */; };
-		1BD818B329BD04AE0033C205 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD818B229BD04AE0033C205 /* Preview Assets.xcassets */; };
+		1BD818BA29BD06070033C205 /* AmiiboResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818B929BD06070033C205 /* AmiiboResponse.swift */; };
+		1BD818BC29BD06270033C205 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818BB29BD06270033C205 /* NetworkError.swift */; };
+		1BD818BE29BD06530033C205 /* AmiiboRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818BD29BD06520033C205 /* AmiiboRepository.swift */; };
+		1BD818C029BD06BC0033C205 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818BF29BD06BC0033C205 /* ContentViewModel.swift */; };
+		1BD818C329BD0EE60033C205 /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818C229BD0EE60033C205 /* Amiibo.swift */; };
+		1BD818CA29BD1FF90033C205 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818C929BD1FF90033C205 /* BackendError.swift */; };
+		1BD818CD29BD207E0033C205 /* AmiiboProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818CC29BD207E0033C205 /* AmiiboProtocol.swift */; };
+		1BD818D029BD21220033C205 /* NetworkExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD818CF29BD21220033C205 /* NetworkExt.swift */; };
+		CD8C605094092BD3ACCA41DB /* Pods_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580494BD55AF307FA45B46F /* Pods_alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,18 @@
 		1BD818AD29BD04AB0033C205 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BD818AF29BD04AE0033C205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BD818B229BD04AE0033C205 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BD818B929BD06070033C205 /* AmiiboResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboResponse.swift; sourceTree = "<group>"; };
+		1BD818BB29BD06270033C205 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		1BD818BD29BD06520033C205 /* AmiiboRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboRepository.swift; sourceTree = "<group>"; };
+		1BD818BF29BD06BC0033C205 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1BD818C229BD0EE60033C205 /* Amiibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
+		1BD818C429BD1DEE0033C205 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BD818C929BD1FF90033C205 /* BackendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
+		1BD818CC29BD207E0033C205 /* AmiiboProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboProtocol.swift; sourceTree = "<group>"; };
+		1BD818CF29BD21220033C205 /* NetworkExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExt.swift; sourceTree = "<group>"; };
+		7580494BD55AF307FA45B46F /* Pods_alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CA39073558808A2BA0748C /* Pods-alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alamofire.debug.xcconfig"; path = "Target Support Files/Pods-alamofire/Pods-alamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		D72B56CE3340B8D5F07C5134 /* Pods-alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alamofire.release.xcconfig"; path = "Target Support Files/Pods-alamofire/Pods-alamofire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8C605094092BD3ACCA41DB /* Pods_alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B597E8DF5FF3256E4898429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7580494BD55AF307FA45B46F /* Pods_alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1BD8189F29BD04AB0033C205 = {
 			isa = PBXGroup;
 			children = (
+				1BD818C429BD1DEE0033C205 /* README.md */,
 				1BD818AA29BD04AB0033C205 /* alamofire */,
 				1BD818A929BD04AB0033C205 /* Products */,
+				5828033B7121B1AFF550A960 /* Pods */,
+				1B597E8DF5FF3256E4898429 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +84,11 @@
 		1BD818AA29BD04AB0033C205 /* alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				1BD818AB29BD04AB0033C205 /* alamofireApp.swift */,
-				1BD818AD29BD04AB0033C205 /* ContentView.swift */,
-				1BD818AF29BD04AE0033C205 /* Assets.xcassets */,
 				1BD818B129BD04AE0033C205 /* Preview Content */,
+				1BD818C829BD1FA60033C205 /* View */,
+				1BD818C729BD1F920033C205 /* Repository */,
+				1BD818C629BD1EEB0033C205 /* Models */,
+				1BD818C529BD1EC90033C205 /* Core */,
 			);
 			path = alamofire;
 			sourceTree = "<group>";
@@ -67,6 +101,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1BD818C529BD1EC90033C205 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1BD818CE29BD20D70033C205 /* Network */,
+				1BD818AB29BD04AB0033C205 /* alamofireApp.swift */,
+				1BD818AF29BD04AE0033C205 /* Assets.xcassets */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1BD818C629BD1EEB0033C205 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BD818B929BD06070033C205 /* AmiiboResponse.swift */,
+				1BD818C229BD0EE60033C205 /* Amiibo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BD818C729BD1F920033C205 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1BD818BD29BD06520033C205 /* AmiiboRepository.swift */,
+				1BD818CC29BD207E0033C205 /* AmiiboProtocol.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1BD818C829BD1FA60033C205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BD818BF29BD06BC0033C205 /* ContentViewModel.swift */,
+				1BD818AD29BD04AB0033C205 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BD818CB29BD20170033C205 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				1BD818C929BD1FF90033C205 /* BackendError.swift */,
+				1BD818BB29BD06270033C205 /* NetworkError.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		1BD818CE29BD20D70033C205 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1BD818CB29BD20170033C205 /* Exceptions */,
+				1BD818CF29BD21220033C205 /* NetworkExt.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5828033B7121B1AFF550A960 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1CA39073558808A2BA0748C /* Pods-alamofire.debug.xcconfig */,
+				D72B56CE3340B8D5F07C5134 /* Pods-alamofire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BD818B629BD04AE0033C205 /* Build configuration list for PBXNativeTarget "alamofire" */;
 			buildPhases = (
+				3E72E64F605C9697024479AD /* [CP] Check Pods Manifest.lock */,
 				1BD818A429BD04AB0033C205 /* Sources */,
 				1BD818A529BD04AB0033C205 /* Frameworks */,
 				1BD818A629BD04AB0033C205 /* Resources */,
+				FC07E946B4C96D0D0830AF1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +225,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD818B329BD04AE0033C205 /* Preview Assets.xcassets in Resources */,
+				1B221F3429BD239900B7F51C /* Preview Assets.xcassets in Resources */,
 				1BD818B029BD04AE0033C205 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E72E64F605C9697024479AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC07E946B4C96D0D0830AF1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alamofire/Pods-alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-alamofire/Pods-alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-alamofire/Pods-alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BD818A429BD04AB0033C205 /* Sources */ = {
@@ -138,7 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD818AE29BD04AB0033C205 /* ContentView.swift in Sources */,
+				1BD818CA29BD1FF90033C205 /* BackendError.swift in Sources */,
+				1BD818BC29BD06270033C205 /* NetworkError.swift in Sources */,
+				1BD818C329BD0EE60033C205 /* Amiibo.swift in Sources */,
+				1BD818BE29BD06530033C205 /* AmiiboRepository.swift in Sources */,
 				1BD818AC29BD04AB0033C205 /* alamofireApp.swift in Sources */,
+				1BD818CD29BD207E0033C205 /* AmiiboProtocol.swift in Sources */,
+				1BD818C029BD06BC0033C205 /* ContentViewModel.swift in Sources */,
+				1BD818D029BD21220033C205 /* NetworkExt.swift in Sources */,
+				1BD818BA29BD06070033C205 /* AmiiboResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +411,7 @@
 		};
 		1BD818B729BD04AE0033C205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CA39073558808A2BA0748C /* Pods-alamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +441,7 @@
 		};
 		1BD818B829BD04AE0033C205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72B56CE3340B8D5F07C5134 /* Pods-alamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
